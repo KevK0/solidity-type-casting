@@ -71,7 +71,7 @@ string str = "0xa0cea4eac2896e97be887bab32c87a452aef12c69f587128fafd9143d94e5adc
 bytes b = str.toBytes();
 ```
 
-#### To Lower Case
+#### To Lowercase
 
 ```
 string str = "HELLO WoRlD";
@@ -79,7 +79,7 @@ str b = str.toLower();
 // output -> hello world
 ```
 
-#### To Upper Case
+#### To Uppercase
 
 ```
 string str = "HELLO WoRlD";
