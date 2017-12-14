@@ -46,5 +46,60 @@ string str = "123";
 uint b = str.toUint();
 ```
 
+## Usage
 
+### String
 
+#### To Address
+
+```
+string str = "0x0a723351e6637a1a519d0778acca42fa6af0b091";
+address b = str.toAddress();
+```
+
+#### To Uint
+
+```
+string str = "123";
+uint b = str.toUint();
+```
+
+#### Hex String To Bytes
+
+```
+string str = "0xa0cea4eac2896e97be887bab32c87a452aef12c69f587128fafd9143d94e5adc1eb7a2d48fc85f3ed8796599f73db394e2709ebfada127715b0bf21f00082e151c";
+bytes b = str.toBytes();
+```
+
+#### To Lower Case
+
+```
+string str = "HELLO WoRlD";
+str b = str.toLower();
+// output -> hello world
+```
+
+#### To Upper Case
+
+```
+string str = "HELLO WoRlD";
+str b = str.toUpper();
+// output -> HELLO WORLD
+```
+
+### Address
+
+#### To String
+
+```
+address addr = 0x3c36a0fb5c41685d5511d46bd53224910e4734d2;
+string b = str.toString();
+```
+
+## Authors
+
+* **Kevin Kaiser** - *Initial work* - [KevK0](https://github.com/KevK0)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
