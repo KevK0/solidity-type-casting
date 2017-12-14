@@ -27,7 +27,7 @@ contract Contract {
 import "github.com/KevK0/contracts/addressCasting.sol";
 
 contract Contract {
-    using addresscast for string;
+    using addresscast for address;
 
     // ...
 }
