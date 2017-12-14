@@ -12,7 +12,7 @@ First import the corresponding casting library.
 #### String Casting
 
 ```
-import "github.com/KevK0/stringCasting.sol";
+import "github.com/KevK0/contracts/stringCasting.sol";
 
 contract Contract {
     using stringcast for string;
@@ -24,7 +24,7 @@ contract Contract {
 #### Address Casting
 
 ```
-import "github.com/KevK0/addressCasting.sol";
+import "github.com/KevK0/contracts/addressCasting.sol";
 
 contract Contract {
     using addresscast for string;
